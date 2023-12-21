@@ -1,0 +1,29 @@
+# Игнорировать бинарные файлы Unity (prefab, asset, и т.д.)
+*.prefab
+*.unity
+*.asset
+
+# Игнорировать файлы для сохранения персональных настроек в Unity
+Library/EditorUserSettings.asset
+
+# Игнорировать файлы сцен в Build Settings
+*.unity
+
+# Игнорировать файлы автоматического резервного копирования (например, файлы, заканчивающиеся на ~)
+*~
+
+# Игнорировать файлы проекта Rider IDE
+.idea/
+
+# Игнорировать кеш и временные файлы
+*.log
+*.log.*
+logs/
+*.pid
+*.suo
+*.user
+*.userprefs
+*.tmp
+*.bak
+*.DS_Store
+Thumbs.db
